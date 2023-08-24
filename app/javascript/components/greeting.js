@@ -13,7 +13,7 @@ export default function Greeting() {
   return (
     <div>
       <h1>Greetings</h1>
-      <p>{message[0].greeting}</p>
+      <p>{message.greeting}</p>
       <button onClick={() => dispatch(fetchMessage())}>New Greeting</button>
     </div>
   );
